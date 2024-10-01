@@ -1,0 +1,52 @@
+<html>
+
+</html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="form">
+        <h2>Library Registration Form</h2>
+        <p><u><b>Registration Details</b></u></p>
+        <form action="reg_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <div class="gender-container">
+                    <div class="col-label">
+                        <label class="gender-label">Gender:</label>
+                    </div>
+                    <div class="col">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female" class="female">Female</label>
+                    </div>
+
+
+                </div>
+
+                <br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br>
+                <label for="nic">NIC:</label>
+                <input type="text" id="nic" name="nic" required>
+                <br>
+                <div class="buttons">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </div>
+        </form>
+    </div>
+
+
+    </form>
+</body>
+
+</html>
